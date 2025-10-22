@@ -10,5 +10,7 @@ elif op == "*":
     print(f"Multiplication is :{num1*num2}")
 elif op == "%":
     print(f"Mod is :{num1%num2}")
+if op == "/":
+    print(f"Sum is :{num1/num2}")
 else :
-    print(f"Divided result is :{num1/num2}")
+    print("Invalid operator")

@@ -13,7 +13,7 @@ monthconversion = {
     "Dec" : "December",
 }
 
-key = str(input("Give me a key : "))
+key = input("Give me a key : ")
 
 
 print(monthconversion.get(key,"not a valid key"))
