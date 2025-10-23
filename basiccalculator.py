@@ -16,7 +16,7 @@ def minus(x,y) :
 
 def multi(x,y) :
     
-    return x*you
+    return x*y
 
 def div(x,y) :
     
@@ -41,7 +41,7 @@ elif choice == '2':
     
 
 elif choice == '3':
-    print(multi())
+    print(multi(x,y))
 
 elif choice == '4':
   
